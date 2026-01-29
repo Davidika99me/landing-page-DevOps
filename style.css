@@ -1,9 +1,9 @@
 :root {
     --bg: #0d1117;
     --bg-light: #161b22;
-    --primary: #58a6ff;
+    --primary: #0d233b;
     --text: #c9d1d9;
-    --white: #ffffff;
+    --white: #ac9d9d;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
