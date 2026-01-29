@@ -1,32 +1,37 @@
 # 📱 MobileDev - Landing Page de Serviços Mobile
+**Desenvolvido por David Moreto**
 
-Uma landing page moderna, de alta conversão, desenvolvida com foco em agências de desenvolvimento de aplicativos ou freelancers de tecnologia. O projeto utiliza um **Tema Dark** sofisticado com acentos em azul neon para transmitir confiança e inovação.
-
-# Feito por David Moreto
+Uma aplicação Full Stack moderna e de alta conversão para agências de desenvolvimento. O projeto utiliza um **Tema Dark** sofisticado com acentos em azul neon, integrando uma interface elegante a um sistema de captura de leads persistente.
 
 ---
 
-## 🚀 Demonstração das Funcionalidades
+## 🚀 Funcionalidades Principais
 
-O site foi estruturado seguindo as melhores práticas de UX (Experiência do Usuário) e contém as seguintes seções:
+O site foi estruturado seguindo as melhores práticas de UX e desenvolvimento:
 
-1.  **Hero Section:** Título de impacto, descrição clara, imagem ilustrativa (mockup) e Call-to-Action (CTA).
-2.  **Serviços:** Grid responsivo detalhando as principais frentes de atuação (Apps Nativos, Design e Escalabilidade).
-3.  **Sobre Nós:** Seção institucional contando a história e missão da empresa.
-4.  **Galeria de Projetos:** Exibição visual de trabalhos anteriores através de um sistema de cards de imagens.
-5.  **Formulário de Contato:** Validação simples via JavaScript para captura de leads.
-6.  **Footer:** Rodapé completo com links sociais e direitos autorais.
+1.  **Hero Section:** Título de impacto, descrição e CTA focado em conversão.
+2.  **Serviços:** Grid responsivo com as frentes de atuação (Apps Nativos, UI/UX, Escalabilidade).
+3.  **Sobre Nós:** Seção institucional com história, missão e uma **Galeria de Projetos** integrada.
+4.  **Formulário de Contato:** Integração completa com o backend para envio de mensagens.
+5.  **Persistência de Dados:** Todas as mensagens enviadas são salvas automaticamente em um banco de dados MySQL.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-O projeto foi construído utilizando o "trié de ouro" do desenvolvimento web front-end, sem dependências externas pesadas:
+### Front-end
+* **HTML5 / CSS3:** Estrutura semântica e estilização avançada (Flexbox/Grid).
+* **JavaScript (ES6):** Manipulação de DOM, Scroll Suave e consumo de API (Fetch).
 
-* **HTML5:** Estrutura semântica para melhor SEO.
-* **CSS3:** Estilização avançada com Flexbox, Grid e Variáveis CSS (Custom Properties).
-* **JavaScript (ES6):** Manipulação de DOM para scroll suave e feedback do formulário.
-* **Google Fonts:** Fonte *Inter* para legibilidade premium.
+### Back-end
+* **Node.js & Express:** Framework para criação da API REST.
+* **MySQL:** Banco de dados relacional para armazenamento das mensagens.
+* **CORS & Body-Parser:** Middlewares para segurança e tratamento de dados.
+
+## Como rodar o projeto
+
+* **Live Server** Instale a extensão do Live Server no VsCode para carregar a página web
+* **
 
 ---
 
@@ -34,7 +39,12 @@ O projeto foi construído utilizando o "trié de ouro" do desenvolvimento web fr
 
 ```text
 /
-├── index.html     # Estrutura principal do site
-├── style.css      # Estilos, cores e responsividade
-├── script.js     # Lógica de interatividade e scroll
-└── README.md      # Documentação do projeto
+├── frontend/             # Interface do usuário
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── backend/              # Servidor e API
+│   ├── server.js
+│   ├── package.json
+│   └── node_modules/     # Dependências do Node
+└── README.md             # Documentação
