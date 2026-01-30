@@ -31,7 +31,7 @@ O site foi estruturado seguindo as melhores práticas de UX e desenvolvimento:
 ## Como rodar o projeto
 
 * **Live Server** Instale a extensão do Live Server no VsCode para carregar a página web
-* **
+* **server.js** Rode o arquivo server.js localizado na pasta /backend e certifique-se de configurar o seu banco de dados com suas credenciais.
 
 ---
 
